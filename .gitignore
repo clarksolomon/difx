@@ -658,6 +658,18 @@ replay_pid*
 /tests/Synthetic/*.machines
 /tests/Synthetic/local-runs/
 
+# tests/DiFXtest_vdifsim and any peripheral files created from running tests in this directory (include all test directories, tarballs, and data folders...)
+/tests/DiFXtest_vdifsim/usb*
+/tests/DiFXtest_vdifsim/complex*
+/tests/DiFXtest_vdifsim/lsb*
+/tests/DiFXtest_vdifsim/testdata
+/tests/DiFXtest_vdifsim/tests.tgz
+/tests/DiFXtest_vdifsim/.tmp
+/tests/DiFXtest_vdifsim/difx_verision_info.txt
+/tests/DiFXtest_vdifsim/experiments/
+/tests/DiFXtest_vdifsim/.tmp/
+/tests/DiFXtest_vdifsim/manifest.ini
+
 # Site-specific settings read by setup.bash / setup.csh (see setup.local.*.example)
 /setup.local.bash
 /setup.local.csh
